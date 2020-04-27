@@ -61,3 +61,38 @@ div.map
     text-align: center;
     margin-bottom: 10px;
 }
+
+div.table
+{
+    display: table;
+    width: 100%;
+}
+
+div.row
+{
+    display: table-row;
+    width: 100%;
+    
+}
+
+div.cell_left
+{
+    display: table-cell;
+    width: 50px;
+    text-align: right;
+    font-weight: bold;
+}
+
+div.cell_center
+{
+    display: table-cell;
+    width: 50px;
+}
+
+div.cell_right
+{
+    display: table-cell;
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
