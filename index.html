@@ -3,14 +3,50 @@
     <head>
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="index.css">
-        <script src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script charset="UTF-8" src="index.js"></script>
     </head>
     <body>
         </br>
-        <p class="head">'조윤아' 의 첫번째 생일에 당신을 초대합니다!</p>
+        <p class="head">'조윤아' 의 첫번째 생일에 여러분들을 초대합니다!</p>
         </br>
         </br>
+        <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/a.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/b.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Left Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/c.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Right Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/b.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
         </br>
         </br>
         <div class="name">
@@ -27,7 +63,7 @@
         <div class="address">
             - 찾아오는 길 -</br>
             <br>
-            주소 : <a class="bold">서울 서초구 올림픽대로 683</a> (반포동)</br></br>
+            <a class="bolds">서울 서초구 올림픽대로 683</a> (반포동)</br></br>
             <div class="table">
                 <div class="row">
                     <div class="cell_left">
@@ -70,16 +106,6 @@
             <!-- * 카카오맵 - 지도퍼가기 -->
             <!-- 1. 지도 노드 -->
             <div id="daumRoughmapContainer1587994059902" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-
-            <!-- 3. 실행 스크립트 -->
-            <script charset="UTF-8">
-                new daum.roughmap.Lander({
-                    "timestamp" : "1587994059902",
-                    "key" : "y5sd",
-                    "mapWidth" : "350",
-                    "mapHeight" : "350"
-                }).render();
-        </script>
         </div>
         
     </body>
