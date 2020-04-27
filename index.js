@@ -1,10 +1,8 @@
-new daum.roughmap.Lander({
-    "timestamp" : "1587994059902",
-    "key" : "y5sd",
-    "mapWidth" : "350",
-    "mapHeight" : "250"
-}).render();
-
-$(document).ready(function(){
-    $('.slider').slider();
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var options = {
+        "height": 350,
+        "interval": 2000
+    }
+    var instances = M.Slider.init(elems, options);
   });
