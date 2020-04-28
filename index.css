@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 body 
 {
@@ -8,13 +9,28 @@ body
     background-color: #091b45;
     font-size: 12px;
     line-height: 16px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     word-spacing: 1px;
+}
+
+span
+{
+    letter-spacing: 2px;
+}
+
+span.strongname
+{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+span.subtitle
+{
+    font-weight: bold;
 }
 
 p.head 
 {
-    color: #eeeeee; 
     /*font-weight: bold;*/
     text-align: center;
     font-size: 16px;
@@ -22,7 +38,7 @@ p.head
     vertical-align: center;
 }
 
-a.name
+span.name
 {
     color: #eeeeee; 
     font-weight: bold;
@@ -45,6 +61,7 @@ div.memo
     text-align: center;
     margin-bottom: 10px;
     vertical-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 div.address
@@ -53,12 +70,14 @@ div.address
     text-align: center;
     margin-bottom: 10px;
     vertical-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-a.bolds
+span.bolds
 {
     font-weight: bold;
     vertical-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 div.map
@@ -72,13 +91,14 @@ div.table
 {
     display: table;
     width: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 div.row
 {
     display: table-row;
     width: 100%;
-    
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 div.cell_left
@@ -86,12 +106,14 @@ div.cell_left
     display: table-cell;
     width: 70px;
     text-align: right;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 div.cell_center
 {
     display: table-cell;
     width: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 div.cell_right
@@ -100,4 +122,5 @@ div.cell_right
     text-align: left;
     padding-top: 3px;
     padding-bottom: 3px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
